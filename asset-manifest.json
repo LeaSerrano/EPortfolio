@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EPortfolio/static/css/main.67d0e5be.css",
-    "main.js": "/EPortfolio/static/js/main.87d41915.js",
+    "main.js": "/EPortfolio/static/js/main.bea55dc2.js",
     "static/js/787.bee8839b.chunk.js": "/EPortfolio/static/js/787.bee8839b.chunk.js",
     "static/media/Serrano Lea - CV.pdf": "/EPortfolio/static/media/Serrano Lea - CV.8b816b18116dca7d1a4a.pdf",
     "static/media/Unreal.png": "/EPortfolio/static/media/Unreal.db3b7ab3226605f3ea31.png",
@@ -18,18 +18,18 @@
     "static/media/Moteur.png": "/EPortfolio/static/media/Moteur.ab7bdf0e0f30867a5840.png",
     "static/media/Raytracing.png": "/EPortfolio/static/media/Raytracing.8044bd0f7edbc0b7a29b.png",
     "static/media/Lexend-Regular.ttf": "/EPortfolio/static/media/Lexend-Regular.6da6431a76b62006dd10.ttf",
-    "static/media/QRcode.png": "/EPortfolio/static/media/QRcode.dbd63dedfe0f28613858.png",
+    "static/media/QRcode.png": "/EPortfolio/static/media/QRcode.c858d5c16982f64cca33.png",
     "static/media/githubHover.png": "/EPortfolio/static/media/githubHover.3b48f74b784e5d65bea5.png",
     "static/media/github.png": "/EPortfolio/static/media/github.faa23f908b52eabfcac5.png",
     "static/media/mail.png": "/EPortfolio/static/media/mail.7636dcb182fa58b54036.png",
     "static/media/mailHover.png": "/EPortfolio/static/media/mailHover.11db03d3e906d150d1c8.png",
     "index.html": "/EPortfolio/index.html",
     "main.67d0e5be.css.map": "/EPortfolio/static/css/main.67d0e5be.css.map",
-    "main.87d41915.js.map": "/EPortfolio/static/js/main.87d41915.js.map",
+    "main.bea55dc2.js.map": "/EPortfolio/static/js/main.bea55dc2.js.map",
     "787.bee8839b.chunk.js.map": "/EPortfolio/static/js/787.bee8839b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67d0e5be.css",
-    "static/js/main.87d41915.js"
+    "static/js/main.bea55dc2.js"
   ]
 }
