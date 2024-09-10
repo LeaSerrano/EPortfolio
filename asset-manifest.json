@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EPortfolio/static/css/main.cb9dec76.css",
+    "main.css": "/EPortfolio/static/css/main.67d0e5be.css",
     "main.js": "/EPortfolio/static/js/main.0d2438b2.js",
     "static/js/787.bee8839b.chunk.js": "/EPortfolio/static/js/787.bee8839b.chunk.js",
     "static/media/Serrano Lea - CV.pdf": "/EPortfolio/static/media/Serrano Lea - CV.8b816b18116dca7d1a4a.pdf",
@@ -24,12 +24,12 @@
     "static/media/mail.png": "/EPortfolio/static/media/mail.7636dcb182fa58b54036.png",
     "static/media/mailHover.png": "/EPortfolio/static/media/mailHover.11db03d3e906d150d1c8.png",
     "index.html": "/EPortfolio/index.html",
-    "main.cb9dec76.css.map": "/EPortfolio/static/css/main.cb9dec76.css.map",
+    "main.67d0e5be.css.map": "/EPortfolio/static/css/main.67d0e5be.css.map",
     "main.0d2438b2.js.map": "/EPortfolio/static/js/main.0d2438b2.js.map",
     "787.bee8839b.chunk.js.map": "/EPortfolio/static/js/787.bee8839b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb9dec76.css",
+    "static/css/main.67d0e5be.css",
     "static/js/main.0d2438b2.js"
   ]
 }
