@@ -1,14 +1,11 @@
 
-
 #gauche {
-
-
     color: white;
 }
 #gauche > img {
     top: 250%;
     height: 10%;
-    width: 10%;
+    width: 5%;
     left:2%;
     position: absolute;
     z-index: 45;
@@ -16,21 +13,20 @@
     opacity: 0.5;
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
-
 }
+
 #droite > img {
     cursor: none;
     left: 85%;
     top: 250%;
     height: 10%;
-    width: 10%;
+    width: 5%;
     position: absolute;
     z-index: 45;
     rotate: 90deg;
     opacity: 0.5;
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
-
 }
 
 #gauche > a {

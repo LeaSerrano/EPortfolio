@@ -7,6 +7,7 @@ import ProjectComponent from "../component/project-component";
 import FormComponent  from "../component/FormComponent";
 import TimelineComponent  from "../component/TimelineComponent";
 import ProjectComponent_2 from "../component/project-component_2";
+import ProjectComponent_3 from "../component/project-component_3";
 
 
 const PageMain = () => {
@@ -31,6 +32,7 @@ const PageMain = () => {
                 <div>
                     <HeaderComponent/>
                 </div>
+                
                 <div>
                     <AboutMeComponent/>
                 </div>
@@ -41,8 +43,10 @@ const PageMain = () => {
                     <ProjectComponent/>
                 </div>
                 <div>
-
                     <ProjectComponent_2/>
+                </div>
+                <div>
+                    <ProjectComponent_3/>
                 </div>
                 <div>
                     <FormComponent/>

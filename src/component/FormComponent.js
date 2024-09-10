@@ -6,8 +6,8 @@ import linkedin_hover from "../style/picture/linkedinHover.png";
 import React, { useState } from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 import animatedArrow from '../style/gif/Animation_arrow.json';
-import QR from "../style/CV/QR.png"
-import CV from "../style/CV/CV.pdf"
+import QR from "../style/CV/QRcode.png"
+import CV from "../style/CV/Serrano Lea - CV.pdf"
 
 const FormComponent = () => {
     const [isGithubHovered_contact, setIsGithubHovered_contact] = useState(true);
@@ -31,22 +31,22 @@ const FormComponent = () => {
         setIsLinkedinHovered_contact(false);
     }
 
+    const email = "leaserrano1119@gmail.com";
     const copyEmailToClipboard = () => {
-        const email = "mathisduban.pro@gmail.com";
         navigator.clipboard.writeText(email);
         setIsCopiedMail(true);
         setTimeout(() => {
             setIsCopiedMail(false);
-        }, 2000); // Afficher le message pendant 2 secondes
+        }, 2000);
     };
 
+    const phoneNumber = "+0681961084";
     const copyPhoneNumberToClipboard = () => {
-        const phoneNumber = "+0618613473";
         navigator.clipboard.writeText(phoneNumber);
         setIsCopiedPhone(true);
         setTimeout(() => {
             setIsCopiedPhone(false);
-        }, 2000); // Afficher le message pendant 2 secondes
+        }, 2000);
     };
 
     return (
@@ -59,23 +59,23 @@ const FormComponent = () => {
 
                 <div id="emailAdress">
                     <h4 className="WhiteH4Title">Email adress</h4>
-                    <a><h5 className="GreyH5Text" onClick={copyEmailToClipboard}>mathisduban.pro@gmail.com</h5>
+                    <a><h5 className="GreyH5Text" onClick={copyEmailToClipboard}>{email}</h5>
                         {isCopiedMail && <h5 className={"GreyH5Text"}>Copied to clipboard!</h5>}</a>
                 </div>
 
                 <div id="phoneNumber">
                     <h4 className="WhiteH4Title">Phone number</h4>
-                    <a><h5 className="GreyH5Text" onClick={copyPhoneNumberToClipboard}>+0618613473</h5>
+                    <a><h5 className="GreyH5Text" onClick={copyPhoneNumberToClipboard}>{phoneNumber}</h5>
                         {isCopiedPhone && <h5 className={"GreyH5Text"}>Copied to clipboard!</h5>}</a>
                 </div>
 
                 <div>
                     <div id="socialIcons">
-                        <a href={"https://github.com/Akkuun"} target="_blank" rel="noreferrer">
+                        <a href={"https://github.com/LeaSerrano"} target="_blank" rel="noreferrer">
                             <img src={isGithubHovered_contact ? github : github_hover} onMouseEnter={handleGithubLeave_contact}
                                  onMouseLeave={handleGithubHover_contact} alt="github" id="github-logo" height="50px" width="50px" />
                         </a>
-                        <a href={"https://www.linkedin.com/in/mathis-duban-b15957236/"} target="_blank" rel="noreferrer">
+                        <a href={"https://www.linkedin.com/in/l%C3%A9a-serrano-6486a9193/"} target="_blank" rel="noreferrer">
                             <img src={isLinkedinHovered_contact ? linkedin : linkedin_hover} onMouseEnter={handleLinkedinLeave_contact}
                                  onMouseLeave={handleLinkedinHover_contact} alt="github" id="linkin-logo" height="50px" width="50px" />
                         </a>
@@ -93,7 +93,7 @@ const FormComponent = () => {
 
                 <div id="cvContent">
                     <h5 id="LittleSubtitle">Or clic on the link to download it here : </h5>
-                    <a href={CV} download="CV_Duban.pdf"><h5 className="GreyH5Text">CV.pdf</h5></a>
+                    <a href={CV} download="CV-Léa_Serrano.pdf"><h5 className="GreyH5Text">CV.pdf</h5></a>
                 </div>
 
             </div>

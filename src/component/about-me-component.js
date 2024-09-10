@@ -8,7 +8,7 @@ const aboutMeComponent = () => {
             <div id="aboutmecomponent">
                 <TypeAnimation
                     sequence={[
-                        'I am a passionate developer who loves learning new technologies, working on various projects and crossing fields of application.',
+                        'I am a passionate developer who loves learning new technologies and working on various projects in video games and 3D.',
                         300,
 
                     ]}
@@ -17,9 +17,6 @@ const aboutMeComponent = () => {
                     style={{fontSize: '1em', display: 'inline-block', paddingTop: '1.5em'}}
                     repeat={Infinity}
                 />
-
-
-
             </div>
         </div>
     )

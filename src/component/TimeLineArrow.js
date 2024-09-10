@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import back_to_top_button_hover from "../style/picture/back-to-top_button_hover.svg";
-import back_to_top_button from "../style/picture/back-to-top_button.svg";
+import back_to_top_button_hover from "../style/picture/back-to-top_button_hover.png";
+import back_to_top_button from "../style/picture/back-to-top_button.png";
 import "../style/css/TimeLineArrow.css";
 
 const TimeLineArrow = ({idArrow}) => {
@@ -18,13 +18,7 @@ const TimeLineArrow = ({idArrow}) => {
 
     return (
         <div id={idArrow}>
-
             <img
-                style={{
-                    // transform: isBackToTopHovered ? 'none' : 'rotate(180deg)',
-                    transition: 'transform 0.3s ease-in-out', // Ajoutez une transition pour un effet fluide
-                }}
-
                 onMouseLeave={handleBackToTopLeave}
                 onMouseEnter={handleBackToTopHover}
 

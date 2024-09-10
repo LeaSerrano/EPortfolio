@@ -1,14 +1,17 @@
 import React from 'react';
 import '../style/css/project-component.css';
 import ProjectItem from "./project-item";
-import Friendly from '../style/picture/Friendly.png';
-import CGJ2022 from '../style/picture/CGJ20222.png';
-import site2 from '../style/picture/site_2.png';
+import Raytracing from '../style/picture/Raytracing.png';
+import Mapmaker from '../style/picture/Mapmaker.png';
+import Moteur from '../style/picture/Moteur.png';
+import Lenortini from '../style/picture/Lenortini.png';
+
 const ProjectComponent_2 = () => {
     const projects = [
-        { title: 'Summer Game Jam 2023 C#', image: Friendly,  gridColumn: '1 / span 1', gridRow: '2 / span 1', colorTitle: 'white', url: 'https://github.com/Akkuun/Code_Game_Jam_Ete_2022'},
-        { title: 'Code Game Jam 2022 C# ', image: CGJ2022,  gridColumn: '2 / span 2', gridRow: '1 / span 1', colorTitle: 'white', url: 'https://github.com/Akkuun/CodeGameJam2022'},
-        { title: 'Personal portfolio React', image: site2, gridColumn: '1 / span 3', gridRow: 1, colorTitle: 'white', url: 'https://github.com/Akkuun/PortFolio_React_Duban' },
+        { title: 'Lancer de rayons', image: Raytracing,  gridColumn: '1 / span 3', gridRow: '2 / span 1', colorTitle: 'white', url: 'https://github.com/LeaSerrano/M1-IMAGINE-Prog3D-LancerRayon'},
+        { title: 'Générateur de cartes 2D', image: Mapmaker, gridColumn: '1 / span 3', gridRow: 1, colorTitle: 'white', url: 'https://github.com/LeaSerrano/M1-IMAGINE-ProjetImage' },
+        { title: 'Moteur de jeux platformer', image: Moteur, gridColumn: '1 / span 3', gridRow: 1, colorTitle: 'white', url: 'https://github.com/LeaSerrano/ProjetMoteur' },
+        { title: 'Lenortini\'s mansion', image: Lenortini, gridColumn: '1 / span 3', gridRow: 1, colorTitle: 'white', url: 'https://github.com/LeaSerrano/Lenortini-s-Mansion' },
     ];
 
     return (

@@ -5,12 +5,12 @@ import TimeLineArrow from "./TimeLineArrow";
 
 const TimelineComponent = () => {
     const steps = [
-        { title: 'Bac STI2D  - Specialized in Technological Innovation and Sustainable Development Option Numeric Sysem ', date: '2017/2019', description: 'Lycée Pierre Rouge', position: "stepLabelBottom", positionTop: false, topLabel: '', topDate: '', topDescription: '', heightPercentage: 0},
-        { title: 'B.T.S - Specialized in Numeric Systems : Electronics & Communication', date: '2019/2021', description: 'Lycée Pierre Rouge', position: "stepLabelBottom", positionTop: true, topLabel: 'Electronics technician | Development of an energy control and management application for boaters. Creation of electronic cards, primarily using C programming', topDate: '2019/2021', topDescription: 'DataComSys', heightPercentage: 0},
-        { title: 'D.U.T - Specialized in Computer Sciences - Higher National Diploma', date: '2021/2022', description: 'I.U.T Montpellier ', position: "stepLabelBottom", positionTop: true, topLabel: ' Software Developer |  Development of C++ algorithms for optimizing industrial research software. Implementing embedded system solutions and managing electronics Linux systems. Creating camera libraries with Qt in C++.', topDate: '2021/2022', topDescription: 'Kloé France', heightPercentage: 0},
-        { title: 'Engineer\'s Degree in Data Engineering in apprenticeship ', date: '2022/2023', description: 'TELECOM Saint-Etienne', position: "stepLabelBottom", positionTop: true, topLabel: 'Data Engineer Junior | Development of React project for managing data across multiple Microsoft Azure clouds. Conducted monitoring & statistical analysis of time-series data with InfluxDB & Grafana.                         ', topDate: '2022/2023', topDescription: 'Watts Electronics', heightPercentage: 0},
-        { title: 'Licence 3 - Specialized in Computer Sciences ', date: '2023/2024', description: 'Facultés des Sciences de Montpellier', position: "stepLabelBottom", positionTop: false, topLabel: ' ', topDate: '', topDescription: '', heightPercentage: 0},
-
+        { title: 'Scientific Baccalaureate SVT - ISN (Computer Science and Digital Sciences) Option, European English Section', date: '2017/2019', description: 'Lycée Jean Jaurès - Saint Clément de Rivière', position: "stepLabelBottom", positionTop: false, topLabel: '', topDate: '', topDescription: '', heightPercentage: 0},
+        { title: 'D.U.T - Specialized in Computer Sciences', date: '2019/2021', description: 'I.U.T Montpellier ', position: "stepLabelBottom", 
+        positionTop: true, topLabel: 'Development in C/C++ of a tool for manipulating 3D plant models', topDate: '2021', topDescription: 'Cirad', heightPercentage: 0},
+        { title: 'Licence 3 - Specialized in Computer Sciences ', date: '2021/2022', description: 'Montpellier University of Science', position: "stepLabelBottom", positionTop: false, topLabel: ' ', topDate: '', topDescription: '', heightPercentage: 0},
+        { title: 'Master IMAGINE', date: '2022/2024', description: 'Montpellier University of Science', position: "stepLabelBottom", 
+        positionTop: true, topLabel: 'Development of an occlusion culling method in OpenGL C++ for optimizing 3D models', topDate: '2024', topDescription: 'Emersya', heightPercentage: 0},
     ];
     const [scrollPosition, setScrollPosition] = React.useState(0);
 
@@ -23,6 +23,7 @@ const TimelineComponent = () => {
             behavior: 'smooth'
         });
     };
+
     const calculateStepHeights = () => {
         const windowHeight = window.innerHeight;
         steps.forEach((step, index) => {
@@ -61,15 +62,15 @@ const TimelineComponent = () => {
                         <Step key={index} id={`step-${index}`}>
                             <StepLabel>
                                 <div className={step.position}>
-                                    <h4 className="stepTitle">{step.title}</h4>
-                                    <h4 className="stepDate">{step.date}</h4>
-                                    <h4 className="stepDescription">{step.description}</h4>
+                                    <h4 className="stepTitleStudies">{step.title}</h4>
+                                    <h4 className="stepDateStudies">{step.date}</h4>
+                                    <h4 className="stepDescriptionStudies">{step.description}</h4>
                                 </div>
                                 {step.positionTop && (
                                     <div className="stepLabelTop">
-                                        <h4 className="stepTitle">{step.topLabel}</h4>
-                                        <h4 className="stepDate">{step.topDate}</h4>
-                                        <h4 className="stepDescription">{step.topDescription}</h4>
+                                        <h4 className="stepTitleExperiences">{step.topLabel}</h4>
+                                        <h4 className="stepDateExperiences">{step.topDate}</h4>
+                                        <h4 className="stepDescriptionExperiences">{step.topDescription}</h4>
                                     </div>
                                 )}
                             </StepLabel>
