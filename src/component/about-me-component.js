@@ -8,7 +8,7 @@ const aboutMeComponent = () => {
             <div id="aboutmecomponent">
                 <TypeAnimation
                     sequence={[
-                        'I am a passionate developer who loves learning new technologies and working on various projects in video games and 3D.',
+                        'I am a passionate developer who loves learning new technologies and working on various projects in video games and software development.',
                         300,
 
                     ]}

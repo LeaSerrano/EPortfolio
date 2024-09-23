@@ -61,7 +61,7 @@ const HeaderComponent = () => {
                         sequence={[
                             'I am a passionate developer',
                             1000,
-                            'I am interested in 3D, image processing and video games',
+                            'I am interested in 3D and video games',
                             1000,
                             'I create video games with Unity and Unreal engine',
                             1000,
